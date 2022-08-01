@@ -1,116 +1,64 @@
-<h1 align="center" style="font-size: 52px;" ><img height=30 src="./images-for-README/dove.png"> SocialSpace - A Social Media Platform</h1>
-It is a social media website that has been created using Laravel. It has the implementation of some basic social media functionalities like creating posts, liking posts, commenting on posts, etc.
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
-<br/>
-<br/>
+<p align="center">
+<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
 
-![](./images-for-README/SocialSpace-banner.png)
+## About Laravel
 
-## 🛠 Installation & Set Up
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-1. Download and Install **xampp**
-2. Set PHP path
-3. Download and install **Composer**
-4. Run the following commands:
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-```shell
-git clone https://github.com/MSarmadQadeer/SocialSpace.git
-cd SocialSpace
-composer install
-cp .env.example .env
-php artisan key:generate
-```
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-5. Create a Database of name **socialspace** and run the following command:
+## Learning Laravel
 
-```shell
-php artisan migrate
-```
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-6. Run it by executing:
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-```shell
-php artisan serve
-```
+## Laravel Sponsors
 
-## :camera_flash: Screens
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-### Login Screen
+### Premium Partners
 
-![](./images-for-README/desktop/login.png)
+- **[Vehikl](https://vehikl.com/)**
+- **[Tighten Co.](https://tighten.co)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Cubet Techno Labs](https://cubettech.com)**
+- **[Cyber-Duck](https://cyber-duck.co.uk)**
+- **[Many](https://www.many.co.uk)**
+- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
+- **[DevSquad](https://devsquad.com)**
+- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
+- **[OP.GG](https://op.gg)**
+- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
+- **[Lendio](https://lendio.com)**
 
-### Signup Screen
+## Contributing
 
-![](./images-for-README/desktop/signup.png)
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-### Home Screen
+## Code of Conduct
 
-![](./images-for-README/desktop/home.png)
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-### Profile Screen
+## Security Vulnerabilities
 
-![](./images-for-README/desktop/profile.png)
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-### Create Post
+## License
 
-![](./images-for-README/desktop/create-post.png)
-
-### Edit or Delete your Post
-
-![](./images-for-README/desktop/edit-delete.png)
-
-### Upload Profile Pic
-
-![](./images-for-README/desktop/upload-profile-pic.png)
-
-<img src="./images-for-README/mobile/login.png" width=180> <img src="./images-for-README/mobile/signup.png" width=180> <img src="./images-for-README/mobile/home.png" width=180> <img src="./images-for-README/mobile/profile.png" width=180> <img src="./images-for-README/mobile/create-post.png" width=180> <img src="./images-for-README/mobile/edit-delete.png" width=180> <img src="./images-for-README/mobile/upload-profile-pic.png" width=180>
-
-## 🎯 Features
-
-### Implemented
-
-✅ Log In
-
-✅ Sign Up
-
-✅ Create Post
-
-✅ Edit Post
-
-✅ Delete Post
-
-✅ Like Post
-
-✅ Comment on Post
-
-✅ View Profiles
-
-✅ Upload Profile Pic
-
-✅ Edit Bio
-
-✅ Log Out
-
-### Remaining
-
-❗ Change Password
-
-❗ Delete Account
-
-## 🔑 License
-
--   This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details
-
-## 🧑 Author
-
-#### Muhammad Sarmad Qadeer
-
-[![LinkedIn Link](https://img.shields.io/badge/Connect-Sarmad-blue.svg?logo=linkedin&longCache=true&style=social&label=Connect)](https://www.linkedin.com/in/msarmadqadeer/)
-
-You can also follow my GitHub Profile to stay updated about my latest projects:
-
-[![GitHub Follow](https://img.shields.io/badge/Connect-Sarmad-blue.svg?logo=Github&longCache=true&style=social&label=Follow)](https://github.com/MSarmadQadeer)
-
-If you liked the repo then kindly support it by giving it a star ⭐!
-
-Copyright (c) 2022 MUHAMMAD SARMAD QADEER
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
